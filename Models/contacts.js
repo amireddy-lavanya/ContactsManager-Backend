@@ -16,5 +16,5 @@ const ContactsSchema = new Schema({
     useRef:{type: String}
 })
 
-const contactsModel = new mongoose.model("contacts", contactsSchema);
+const contactsModel = new mongoose.model("contacts", ContactsSchema);
 module.exports = contactsModel;
