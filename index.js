@@ -3,7 +3,6 @@ const app= express();
 const morgan = require("morgan");
 const cors= require("cors");
 const dotenv = require("dotenv");
-const auth=require("./Middleware/auth");
 const login=require("./Routes/login");
 const ContactsData =require("./Routes/contact")
 const mongoose= require("mongoose");
